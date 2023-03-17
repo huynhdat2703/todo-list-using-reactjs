@@ -1,0 +1,80 @@
+.containter {
+    width: 500px;
+    height: 500px;
+    max-height: 500px;
+    background-color: #eff0c1;
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+.title {
+    text-align: center;
+    border-left: 10px solid #595c11;
+    background-color: #d0d180;
+    font-size: 30px;
+}
+
+.add-job-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.new-job-input {
+    grid-column: 1/3;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-btn {
+    height: 30px;
+    grid-column: 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d0d180;
+}
+
+.add-btn:hover {
+    background-color: #c8c9a1;
+}
+
+.job-list-section {
+    display: block;
+}
+
+.job-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    height: 20px;
+    border-bottom: 1px dashed #595c11;
+    padding-bottom: 20px;
+}
+
+.job-name-lbl {
+    grid-column: 1/3;
+    margin-left: 20px;
+}
+
+.delete-btn {
+    grid-column: 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d0d180;
+    height: 30px;
+}
+
+.delete-btn:hover {
+    background-color: #c8c9a1;
+}
+
+.error-msg {
+    text-align: center;
+    color: red;
+}
